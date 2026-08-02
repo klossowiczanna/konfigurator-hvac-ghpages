@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="kpGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="warmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <!-- Background Container -->
+  <rect width="64" height="64" rx="14" fill="#0f172a" />
+  
+  <!-- HVAC Cooling Snowflake / Blade (Top Left) -->
+  <path d="M32 12V24M32 12L28 16M32 12L36 16" stroke="url(#kpGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- HVAC Airflow Waves -->
+  <path d="M14 26C18 24 22 28 26 26C30 24 34 28 38 26C42 24 46 28 50 26" stroke="url(#kpGradient)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14 34C18 32 22 36 26 34C30 32 34 36 38 34C42 32 46 36 50 34" stroke="#e2e8f0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14 42C18 40 22 44 26 42C30 40 34 44 38 42C42 40 46 44 50 42" stroke="url(#warmGradient)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Subtle Glow Center -->
+  <circle cx="32" cy="34" r="3" fill="#38bdf8" />
+</svg>
